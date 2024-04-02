@@ -1,4 +1,6 @@
-# AngularPokedexHexagonal
+# Angular Pokedex with Hexagonal Architecture
+
+This project uses hexagonal architecture that decouples rest-api implementation and state management libraries. The core directory contains ports and doesn't use any Angular related dependencies which can also help to migrate to another JS/TS technologies later on.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.10.
 
