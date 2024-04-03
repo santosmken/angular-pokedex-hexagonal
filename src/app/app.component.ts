@@ -16,6 +16,7 @@ import { PokedexStore } from './shared/adapters/pokedex.store';
   styleUrl: './app.component.css',
   imports: [CommonModule, RouterModule],
   providers: [
+    // Wire-up dependencies of query-handler
     {
       provide: PokedexQueryHandler,
       useFactory: (pokedexState: PokedexState, repository: PokedexRepository) =>
